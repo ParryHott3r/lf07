@@ -10,16 +10,24 @@ joan.fillcolor("Silver")
 
 joan.begin_fill()
 
+joan.circle(160)
 joan.circle(150)
+joan.circle(140)
+joan.circle(130)
+joan.circle(120)
+joan.circle(110)
+joan.circle(100)
+
 
 joan.end_fill()
 
 joan.penup()
 
-joan.goto(10, 100)
+joan.goto(10, 50)
+
 
 joan.font = ("Arial", 50, "fett")
 
-joan.write(" Binary Calendar \n ---\n ---\n Calendar\n Day - 0000 1000\n Month - 0000 1100\n Year - 0000 0111 1110 0111", align="center")
+joan.write(" Binary Calendar \n ---\n ---\n Day - 0000 1000\n Month - 0000 1100\n Year - 0000 0111 1110 0111", align="center")
 
 turtle.exitonclick()
