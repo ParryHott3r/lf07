@@ -1,0 +1,25 @@
+import turtle
+
+joan = turtle.Turtle()
+
+joan.speed(5)
+
+joan.pencolor("Black")
+
+joan.fillcolor("Silver")
+
+joan.begin_fill()
+
+joan.circle(150)
+
+joan.end_fill()
+
+joan.penup()
+
+joan.goto(10, 100)
+
+joan.font = ("Arial", 50, "fett")
+
+joan.write(" Binary Calendar \n ---\n ---\n Calendar\n Day - 0000 1000\n Month - 0000 1100\n Year - 0000 0111 1110 0111", align="center")
+
+turtle.exitonclick()
